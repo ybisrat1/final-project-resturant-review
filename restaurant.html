@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lamg -"en">
 
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -19,7 +19,7 @@
       <h1><a href="/">Restaurant Reviews</a></h1>
     </nav>
     <!-- Beginning breadcrumb -->
-    <ul id="breadcrumb">
+    <ul id="breadcrumb" aria-label= "breadcrumb" role="navigation">
       <li tabindex="-1"><a href="/">Home</a></li>
     </ul>
     <!-- End breadcrumb -->
@@ -31,13 +31,13 @@
   <main id="maincontent" >
     <!-- Beginning map -->
     <section id="map-container" tabindex="-1" aria-label="map">
-      <div id="map" tabindex="-1" ></div>
+      <div id="map" tabindex="-1" role="application" ></div>
     </section>
     <!-- End map -->
     <!-- Beginning restaurant -->
     <section id="restaurant-container">
-      <h1 id="restaurant-name" tabindex="0"></h1>
-      <img id="restaurant-img" tabindex="0" aria-label="Resturant image">
+      <h2 id="restaurant-name" tabindex="0"></h1>
+      <img id="restaurant-img" tabindex="0" aria-label="Resturant image" alt = "resturant img">
       <p id="restaurant-cuisine" tabindex="0"></p>
       <p id="restaurant-address" tabindex="0"></p>
       <table id="restaurant-hours" tabindex="0"></table>
